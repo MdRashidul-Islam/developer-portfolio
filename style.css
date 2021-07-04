@@ -2,10 +2,11 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   margin: 0;
 }
-section {
+.flexible-container {
+  margin-bottom: 7%;
   display: flex;
 }
-.first-page {
+.first-section {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
 }
@@ -28,15 +29,44 @@ section {
 .button {
   text-decoration: none;
   color: white;
-  padding: 13px 25px;
+  padding: 10px 20px;
   background-image: linear-gradient(red, orange);
   font-weight: bold;
   font-size: 22px;
   border-radius: 5%;
 }
-.second-page {
+.second-section {
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
   margin-top: 3%;
+}
+.third-section {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experience {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 20px;
+  box-shadow: 10px 10px 40px;
+  border-radius: 10px;
+}
+#front {
+  border-left: 9px solid;
+  border-image: linear-gradient(blue, cyan);
+  background-color: 2px solid red;
+  border-image-slice: 1;
+}
+#back {
+  border-left: 9px solid;
+  border-image: linear-gradient(rgb(229, 255, 0), rgb(255, 30, 0));
+  background-color: 2px solid red;
+  border-image-slice: 1;
+}
+
+footer {
+  text-align: center;
 }
