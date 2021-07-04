@@ -1,3 +1,42 @@
 body {
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+}
+section {
+  display: flex;
+}
+.first-page {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.half-width {
+  width: 50%;
+  padding: 1%;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.half-width img {
+  width: 90%;
+}
+.half-width p {
+  font-size: 20px;
+  text-align: justify;
+}
+.orange {
+  color: orange;
+}
+.button {
+  text-decoration: none;
+  color: white;
+  padding: 13px 25px;
+  background-image: linear-gradient(red, orange);
+  font-weight: bold;
+  font-size: 22px;
+  border-radius: 5%;
+}
+.second-page {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: 3%;
 }
